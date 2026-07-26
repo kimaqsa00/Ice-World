@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Header & Navbar */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -65,7 +65,7 @@ header {
     color: #f39c12;
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     align-items: center;
@@ -164,7 +164,7 @@ header {
     filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
 }
 
-/* Sections General */
+
 section {
     padding: 80px 8%;
 }
@@ -183,7 +183,7 @@ section {
     max-width: 600px;
 }
 
-/* Products Grid */
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -305,7 +305,6 @@ section {
     color: #fff;
 }
 
-/* Categories Grid */
 .categories-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -357,8 +356,6 @@ section {
     font-size: 13px;
     color: #ddd;
 }
-
-/* Discount Banner */
 .discount-banner {
     background: #ffeef2;
     padding: 60px 20px;
@@ -411,8 +408,6 @@ section {
 .subscribe-form button:hover {
     background: #e67e22;
 }
-
-/* Form Message Box Styling */
 .form-message {
     margin-top: 15px;
     padding: 12px 20px;
@@ -434,8 +429,6 @@ section {
     color: #721c24;
     border: 1px solid #f5c6cb;
 }
-
-/* Toast Message */
 .toast-message {
     position: fixed;
     top: 90px;
@@ -452,7 +445,6 @@ section {
     display: none;
 }
 
-/* Contact Page Layout */
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -523,7 +515,6 @@ section {
     box-shadow: 0 0 8px rgba(243, 156, 18, 0.2);
 }
 
-/* Universal Custom Footer Styling (Home & All Other Pages) */
 footer,
 footer.custom-footer,
 .custom-footer {
@@ -536,7 +527,6 @@ footer.custom-footer,
     box-sizing: border-box !important;
 }
 
-/* Columns Layout (Spacious 4 Grid) */
 .custom-footer-grid {
     display: grid !important;
     grid-template-columns: repeat(4, 1fr) !important;
@@ -585,7 +575,6 @@ footer.custom-footer,
     margin-right: 8px !important;
 }
 
-/* Full Width Line & Centered Copyright Section */
 .custom-footer-copyright {
     width: 100% !important;
     max-width: 1300px !important;
