@@ -378,9 +378,10 @@ section {
 }
 
 .subscribe-form {
-    display: inline-flex;
-    max-width: 500px;
+    display: flex;
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
@@ -389,6 +390,7 @@ section {
 
 .subscribe-form input {
     flex: 1;
+    min-width: 0;
     padding: 15px 20px;
     border: none;
     outline: none;
@@ -396,7 +398,8 @@ section {
 }
 
 .subscribe-form button {
-    padding: 0 30px;
+    width: 120px;
+    flex-shrink: 0;
     background: #f39c12;
     color: #fff;
     border: none;
@@ -407,15 +410,6 @@ section {
 
 .subscribe-form button:hover {
     background: #e67e22;
-}
-.form-message {
-    margin-top: 15px;
-    padding: 12px 20px;
-    border-radius: 6px;
-    font-size: 14px;
-    font-weight: 500;
-    display: inline-block;
-    animation: fadeInOut 4s ease forwards;
 }
 
 .form-message.success {
