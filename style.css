@@ -706,3 +706,37 @@ footer.custom-footer,
     }
 
 }
+
+@media (max-width: 600px) {
+
+    .discount-banner{
+        margin: 30px 15px;
+        padding: 30px 15px;
+    }
+
+    .subscribe-form{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 10px;
+        overflow: visible !important;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .subscribe-form input{
+        width: 100% !important;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+    }
+
+    .subscribe-form button{
+        display: block !important;
+        width: 100% !important;
+        height: 50px;
+        background: #f39c12 !important;
+        color: white !important;
+        border-radius: 8px;
+    }
+
+}
