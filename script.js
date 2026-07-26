@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // ==========================
-    // Toast Message
-    // ==========================
     function showToast(message) {
 
         const toast = document.getElementById("toast-message");
@@ -23,9 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    // ==========================
-    // Newsletter
-    // ==========================
     const subBtn = document.getElementById("sub-btn");
 
     if (subBtn) {
@@ -47,9 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
-    // ==========================
-    // Contact Form
-    // ==========================
+   
     const contactForm = document.getElementById("contact-form");
 
     if (contactForm) {
