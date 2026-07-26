@@ -690,3 +690,25 @@ footer.custom-footer,
         font-size: 34px;
     }
 }
+
+@media (max-width: 600px) {
+
+    .subscribe-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe-form input{
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .subscribe-form button{
+        width: 100%;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+}
